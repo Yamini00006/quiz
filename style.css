@@ -8,12 +8,13 @@
 }
 
 body{
-    background-image: url(sec1.jpg);
+    background-image: url(lock4.avif);
+    background-size: cover;
 }
 
 ::selection{
     color: #fff;
-    background: #33ff33;
+    background: #284d80;
 }
 
 .start_btn,
@@ -40,18 +41,18 @@ body{
 .start_btn button{
     font-size: 25px;
     font-weight: 500;
-    color: #ffffff;
+    color: #00053f;
     padding: 15px 30px;
     outline: none;
     border: none;
     border-radius: 5px;
-    background: #580c0c;
+    background: #ffffff;
     cursor:pointer;
 }
 
 .info_box{
     width: 540px;
-    background: #4e0404;
+    background: #00053f;
     font-family: 'Times New Roman';
     color:#ffffff;
     border-radius: 5px;
@@ -124,7 +125,7 @@ body{
     z-index: 2;
     height: 70px;
     padding: 0 30px;
-    background: #4c4444;
+    background: #00053f;
     color:aliceblue;
     border-radius: 5px 5px 0 0;
     display: flex;
@@ -139,46 +140,13 @@ body{
     font-weight: 600;
 }
 
-.quiz_box header .timer{
-    color:aliceblue;
-    background: #6f5757;
-    border: 1px solid #6f4e4e;
-    height: 45px;
-    padding: 0 8px;
-    border-radius: 5px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 145px;
-}
 
-.quiz_box header .timer .time_left_txt{
-    font-weight: 400;
-    font-size: 17px;
-    user-select: none;
-}
 
-.quiz_box header .timer .timer_sec{
-    font-size: 18px;
-    font-weight: 500;
-    height: 30px;
-    width: 45px;
-    color: #fff;
-    border-radius: 5px;
-    line-height: 30px;
-    text-align: center;
-    background: #876767;
-    border: 1px solid #4e4040;
-    user-select: none;
-}
 
-.quiz_box header .time_line{
-    position: absolute;
-    bottom: 0px;
-    left: 0px;
-    height: 3px;
-    background: #362525;
-}
+
+
+
+
 
 section{
     padding: 25px 30px 20px 30px;
@@ -197,7 +165,7 @@ section .option_list{
 }
 
 section .option_list .option{
-    background: #4c4444;
+    background: #00053f;
     border: 1px solid #564a4a;
     color: aliceblue;
     border-radius: 5px;
@@ -216,8 +184,8 @@ section .option_list .option:last-child{
 }
 
 section .option_list .option:hover{
-    color: #9c6064;
-    background: #c29c9c;
+    color: #c9cef7;
+    background: #5e42ef;
     border: 1px solid #523232;
 }
 
@@ -261,7 +229,7 @@ section .option_list .option .icon{
 }
 
 footer{
-    background-color: #4c4444;
+    background-color: #00053f;
     color:aliceblue;
     height: 60px;
     padding: 0 30px;
@@ -295,8 +263,8 @@ footer button{
     outline: none;
     color: aliceblue;
     border-radius: 5px;
-    background: #6f5757;
-    border: 1px solid #472e2e;
+    background: #163d8b;
+    border: 1px solid #375b62;
     line-height: 10px;
     opacity:0;
     pointer-events: none;
@@ -305,7 +273,7 @@ footer button{
 }
 
 footer button:hover{
-    background: #3b2719;
+    background: #7ad6dd;
 }
 
 footer button.show{
@@ -315,7 +283,7 @@ footer button.show{
 }
 
 .result_box{
-    background: #514949;
+    background: #1B2735;
     color:aliceblue;
     border-radius: 5px;
     display: flex;
@@ -374,19 +342,19 @@ footer button.show{
 
 .buttons button.restart{
     color: aliceblue;
-    background: #452e2e;
+    background: #8b0e0e;
 }
 
 .buttons button.restart:hover{
-    background: #5a0505;
+    background: #600202;
 }
 
 .buttons button.quit{
-    color: #452e2e;
+    color: #2e3045;
     background: aliceblue;
 }
 
 .buttons button.quit:hover{
     color: #fff;
-    background: #5a0505;
+    background: #001156;
 }
